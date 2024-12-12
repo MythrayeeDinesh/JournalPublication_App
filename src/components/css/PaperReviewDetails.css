@@ -1,0 +1,112 @@
+.paper-review-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 280px;
+}
+
+.paper-info-comments-section {
+  display: flex;
+  gap: 20px;
+}
+
+.paper-info-section,
+.reviewer-comments-section {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.paper-info-section {
+  margin-right: 10px;
+}
+
+.reviewer-comments-section {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.pdf-review-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.pdf-viewer-section,
+.comment-status-section {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.pdf-viewer-section iframe {
+  border-radius: 8px;
+}
+
+.comment-status-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-box,
+.status-dropdown,
+.comment-status-button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.comment-status-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comment-status-button:hover {
+  background-color: #0056b3;
+}
+
+.review-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.review-card p {
+  margin: 5px 0;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+h2.title,
+h3 {
+  font-family: 'Arial', sans-serif; /* Replace with your preferred font */
+  font-weight: bold;
+  border-bottom: 2px solid #007bff; /* Adds a line under the heading */
+  padding-bottom: 5px; /* Adds space between the heading and the line */
+  margin-bottom: 10px; /* Adds space below the heading */
+}
+
+h3 {
+  font-size: 1.25rem; /* Adjusts font size for subheadings */
+  color: #333; /* Adjusts color for better visibility */
+}

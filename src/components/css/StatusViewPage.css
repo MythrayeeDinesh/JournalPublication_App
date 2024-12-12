@@ -1,0 +1,122 @@
+/* General container styling */
+.dashboard-content {
+    background-color: #f4f4f9; /* Light background for better contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 250px; /* Adjust as per your layout */
+}
+
+/* Styling for the table */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th, .styled-table td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.styled-table td {
+    font-size: 1rem;
+    color: #333;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Link styling */
+.styled-table a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.styled-table a:hover {
+    color: #0056b3;
+}
+
+/* Button styling */
+.styled-table button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-table button:hover {
+    background-color: #218838;
+}
+
+/* Header styling */
+.dashboard-content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for the 'Withdraw' link */
+.styled-table a.withdraw-link {
+    color: #dc3545;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.styled-table a.withdraw-link:hover {
+    color: #c82333;
+}
+
+/* Styling for the 'Assign Reviewer' button */
+.styled-table .assign-reviewer-btn {
+    background-color: #ffc107;
+    color: #333;
+    border-radius: 4px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-table .assign-reviewer-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Styling for 'Loading...' and 'No data available' */
+.loading, .no-data {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}
+.assign-reviewer-link {
+    color: #007bff; /* Bootstrap's primary link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Optional for emphasis */
+    cursor: pointer;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.assign-reviewer-link:hover {
+    color: #0056b3; /* Darker blue for hover effect */
+    text-decoration: underline; /* Show underline on hover */
+}
